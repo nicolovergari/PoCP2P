@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".HomeFragment">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment_profile"
+            android:textSize="50sp"
+            android:background="@android:color/darker_gray"
+    />
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:text="Qui di seguito vengono visualizzate le notifiche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView"
+        android:layout_margin="1dp"/>
+        <TextView
+                android:text="Utente x ha valutato la tua auto 5 stelle"
+                android:layout_width="match_parent"
+                android:layout_height="46dp" android:id="@+id/textView2"
+                android:layout_margin="4dp"
+                android:padding="2dp"
+                android:background="@color/colorPrimary"/>
+        <TextView
+                android:text="Hai raggiunto il livello 12"
+                android:layout_width="match_parent"
+                android:layout_height="46dp" android:id="@+id/textView3"
+                android:layout_margin="4dp"
+                android:padding="2dp"
+                android:background="@color/colorPrimary"/>
+        <TextView
+                android:text="Auto inserita con seuccesso"
+                android:layout_width="match_parent"
+                android:layout_height="46dp" android:id="@+id/textView4"
+                android:layout_margin="4dp"
+                android:padding="2dp"
+                android:background="@color/colorPrimary"/>
+        <TextView
+                android:text="Hai percorso 50km, complimenti!"
+                android:layout_width="match_parent"
+                android:layout_height="46dp" android:id="@+id/textView5"
+                android:layout_margin="4dp"
+                android:padding="2dp"
+                android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
