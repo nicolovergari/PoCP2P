@@ -1,0 +1,6 @@
+File -> Project Structure
+Project:
+Android Gradle Plugin Version
+3.2.1
+Gradle Version
+4.6
